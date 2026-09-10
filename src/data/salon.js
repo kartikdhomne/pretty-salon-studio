@@ -1,0 +1,208 @@
+export const salon = {
+  name: "Maison Lume",
+  tagline: "Unisex hair, skin & grooming studio",
+  phone: "+91 98765 43210",
+  email: "hello@maisonlume.salon",
+  address: "24 Palm Grove Lane, Bandra West, Mumbai 400050",
+  hours: [
+    { day: "Monday – Thursday", time: "10:00 – 20:00" },
+    { day: "Friday – Saturday", time: "09:00 – 21:00" },
+    { day: "Sunday", time: "10:00 – 18:00" },
+  ],
+};
+
+export const serviceGroups = [
+  {
+    id: "hair",
+    title: "Hair Studio",
+    audience: "Women & Men",
+    blurb:
+      "Precision cuts, lived-in colour and treatments built around your hair's real texture.",
+    items: [
+      "Signature cut & finish",
+      "Fade, taper & clipper work",
+      "Balayage & lived-in colour",
+      "Global colour & root touch-up",
+      "Highlights and lowlights",
+      "Keratin & smoothening",
+      "Scalp & bond repair therapy",
+      "Blow-dry, curls & styling",
+    ],
+  },
+  {
+    id: "skin",
+    title: "Skin & Spa",
+    audience: "Unisex",
+    blurb:
+      "Calm, clinical-grade facials and body rituals with a slow, restorative pace.",
+    items: [
+      "Hydra glow facial",
+      "Anti-acne clarifying facial",
+      "Brightening vitamin C facial",
+      "Detan & clean-up",
+      "Full body polish",
+      "Aroma relaxation massage",
+      "Deep tissue massage",
+      "Back & shoulder ritual",
+    ],
+  },
+  {
+    id: "grooming",
+    title: "Men's Grooming",
+    audience: "Men",
+    blurb:
+      "Barbering fundamentals done properly — hot towels, sharp lines, no rush.",
+    items: [
+      "Beard sculpt & line-up",
+      "Hot towel razor shave",
+      "Beard colour",
+      "Head shave & scalp care",
+      "Men's hair spa",
+      "Charcoal detox facial",
+      "Manicure & pedicure for men",
+      "Grooming membership",
+    ],
+  },
+  {
+    id: "beauty",
+    title: "Beauty & Bridal",
+    audience: "Women",
+    blurb:
+      "Makeup, nails and full bridal choreography for the day you'll remember.",
+    items: [
+      "Party & event makeup",
+      "HD bridal makeup",
+      "Draping & hair styling",
+      "Threading & waxing",
+      "Gel extensions & nail art",
+      "Classic manicure & pedicure",
+      "Lash lift & extensions",
+      "Pre-bridal packages",
+    ],
+  },
+];
+
+export const rateCards = [
+  {
+    group: "Hair — Women",
+    rows: [
+      { name: "Signature cut & blow-dry", detail: "60 min", price: "₹1,600" },
+      { name: "Fringe / trim", detail: "20 min", price: "₹500" },
+      { name: "Balayage", detail: "150 min", price: "₹7,500" },
+      { name: "Global colour", detail: "120 min", price: "₹4,200" },
+      { name: "Keratin smoothening", detail: "180 min", price: "₹9,000" },
+      { name: "Hair spa & bond repair", detail: "60 min", price: "₹2,200" },
+    ],
+  },
+  {
+    group: "Hair — Men",
+    rows: [
+      { name: "Classic cut", detail: "40 min", price: "₹700" },
+      { name: "Skin fade", detail: "50 min", price: "₹900" },
+      { name: "Beard sculpt", detail: "30 min", price: "₹450" },
+      { name: "Hot towel shave", detail: "40 min", price: "₹650" },
+      { name: "Hair colour", detail: "60 min", price: "₹1,500" },
+      { name: "Men's hair spa", detail: "45 min", price: "₹1,200" },
+    ],
+  },
+  {
+    group: "Skin & Spa — Unisex",
+    rows: [
+      { name: "Hydra glow facial", detail: "60 min", price: "₹2,800" },
+      { name: "Anti-acne facial", detail: "60 min", price: "₹3,000" },
+      { name: "Detan & clean-up", detail: "30 min", price: "₹1,100" },
+      { name: "Aroma relaxation massage", detail: "60 min", price: "₹2,600" },
+      { name: "Deep tissue massage", detail: "75 min", price: "₹3,400" },
+      { name: "Full body polish", detail: "90 min", price: "₹4,000" },
+    ],
+  },
+  {
+    group: "Beauty & Bridal",
+    rows: [
+      { name: "Party makeup", detail: "60 min", price: "₹3,500" },
+      { name: "HD bridal makeup", detail: "180 min", price: "₹18,000" },
+      { name: "Gel extensions", detail: "90 min", price: "₹2,900" },
+      { name: "Manicure & pedicure", detail: "75 min", price: "₹1,600" },
+      { name: "Full arms & legs wax", detail: "45 min", price: "₹1,400" },
+      { name: "Pre-bridal package", detail: "4 sessions", price: "₹24,000" },
+    ],
+  },
+];
+
+export const packages = [
+  {
+    name: "The Refresh",
+    price: "₹2,900",
+    note: "Monthly favourite",
+    includes: ["Cut & finish", "Express facial", "Head massage"],
+  },
+  {
+    name: "The Ritual",
+    price: "₹6,400",
+    note: "Most booked",
+    includes: [
+      "Cut & colour touch-up",
+      "Hydra glow facial",
+      "Manicure & pedicure",
+      "Complimentary hair spa",
+    ],
+  },
+  {
+    name: "The Groom",
+    price: "₹3,600",
+    note: "For him",
+    includes: ["Skin fade", "Beard sculpt", "Charcoal detox facial", "Shave"],
+  },
+];
+
+export const testimonials = [
+  {
+    name: "Ananya Rao",
+    service: "Balayage & cut",
+    rating: 5,
+    quote:
+      "I've never had a colourist actually listen before. They talked me out of what I asked for and gave me something far better.",
+  },
+  {
+    name: "Rohan Mehta",
+    service: "Skin fade & beard sculpt",
+    rating: 5,
+    quote:
+      "Sharpest fade in the city and nobody rushes you out. The hot towel finish alone is worth the trip.",
+  },
+  {
+    name: "Priya Nair",
+    service: "HD bridal makeup",
+    rating: 5,
+    quote:
+      "Fourteen hours, three outfit changes, monsoon humidity — and my makeup did not move once. They were calmer than my family.",
+  },
+  {
+    name: "Kabir Shah",
+    service: "Deep tissue massage",
+    rating: 5,
+    quote:
+      "I book the 75 minute one every third Sunday now. It's the only hour of the month my shoulders forgive me.",
+  },
+  {
+    name: "Meera Iyer",
+    service: "Keratin smoothening",
+    rating: 5,
+    quote:
+      "Six months of frizz-free mornings. They were honest that my hair needed two sessions instead of upselling me on five.",
+  },
+  {
+    name: "Aditya Kulkarni",
+    service: "Grooming membership",
+    rating: 5,
+    quote:
+      "The membership pays for itself by the third visit. Same barber every time, remembers exactly how I like it.",
+  },
+];
+
+export const team = [
+  { name: "Leila Fernandes", role: "Creative Director & Colourist" },
+  { name: "Arjun Bose", role: "Master Barber" },
+  { name: "Sana Qureshi", role: "Lead Aesthetician" },
+  { name: "Nikhil Verma", role: "Bridal & Editorial Stylist" },
+];
