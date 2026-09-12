@@ -57,6 +57,8 @@ export function Nav() {
                 key={l.to}
                 to={l.to}
                 onClick={() => setOpen(false)}
+                activeOptions={{ exact: l.to === "/" }}
+                activeProps={{ className: "text-primary" }}
                 className="text-sm uppercase tracking-[0.18em] text-muted-foreground"
               >
                 {l.label}
