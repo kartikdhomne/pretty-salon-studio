@@ -29,7 +29,7 @@ export function Nav() {
               key={l.to}
               to={l.to}
               activeOptions={{ exact: l.to === "/" }}
-              activeProps={{ className: "text-primary" }}
+              activeProps={{ className: "text-primary font-semibold underline decoration-primary decoration-2 underline-offset-[6px]" }}
               className="text-[0.78rem] uppercase tracking-[0.18em] text-muted-foreground transition-colors hover:text-primary"
             >
               {l.label}
@@ -58,7 +58,7 @@ export function Nav() {
                 to={l.to}
                 onClick={() => setOpen(false)}
                 activeOptions={{ exact: l.to === "/" }}
-                activeProps={{ className: "text-primary" }}
+                activeProps={{ className: "text-primary font-semibold underline decoration-primary decoration-2 underline-offset-4" }}
                 className="text-sm uppercase tracking-[0.18em] text-muted-foreground"
               >
                 {l.label}
